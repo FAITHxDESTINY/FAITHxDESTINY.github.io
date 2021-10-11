@@ -1,15 +1,59 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,900");
 * {
-  margin: unset;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
-.bar {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ea8a91;
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+   display: flex;
+   background-color:rgb(27, 190, 255);
+   justify-content: space-around;
+   position: fixed;
+   width: 100%;
+   padding: 25px 0; 
+   color: rgb(206, 232, 255);
+   animation-name: navbar;
+   animation-duration: 2s;
+   animation-delay: 0.2s;
+}
+
+@keyframes navbar {
+    from {top: -75px;}
+    to {top: 0px;}
+}
+
+nav .logo {
+    color: rgb(206, 232, 255);
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size: 1.2em;
+    transition: 1s;
+}
+
+nav .logo:hover {
+letter-spacing: 8px;
+font-size: 1.4em;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: rgb(206, 232, 255);
+    text-decoration: none;
+    position: relative;
+    transition: 0.5s; 
+}
+
+nav ul li a:hover {
+    font-size:1.4em;
 }

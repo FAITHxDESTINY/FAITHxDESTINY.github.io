@@ -23,7 +23,7 @@ nav {
 }
 
 @keyframes navbar {
-    from {top: -75px;}
+    from {top: -90px;}
     to {top: 0px;}
 }
 

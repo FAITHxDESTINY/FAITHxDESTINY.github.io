@@ -11,8 +11,7 @@ body {
 
 img {
     position : relative;
-    width : 90%;
-    height : 80;
+    width : 100%;
     opacity: 0%;
     animation-name: bg;
     animation-duration: 1.3s;

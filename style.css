@@ -33,6 +33,7 @@ nav {
    animation-name: navbar;
    animation-duration: 1.3s;
    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes navbar {

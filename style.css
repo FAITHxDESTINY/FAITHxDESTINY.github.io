@@ -25,6 +25,7 @@ img {
 nav {
    display: flex;
    background-color:black;
+   opacity: 45%;
    justify-content: space-around;
    position: fixed;
    width: 100%;

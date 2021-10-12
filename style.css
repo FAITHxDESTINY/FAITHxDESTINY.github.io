@@ -12,7 +12,7 @@ body {
 img {
     position : relative;
     background: no-repeat;
-    width : 100%;
+    width : 90%;
     opacity: 0%;
     animation-name: bg;
     animation-duration: 1.3s;

@@ -11,7 +11,7 @@ body {
 
 img {
     opacity: 0%;
-    background-size: cover;
+    height: 747px;
     width: 100%;
     animation-name: bg;
     animation-duration: 1.3s;
